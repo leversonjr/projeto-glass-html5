@@ -11,6 +11,7 @@ p {
 /* formatação de imagens e legendas. */
 
 figure.foto-legenda {
+    position: relative;
     border: 8px solid white ;
     box-shadow: 1px 1px 4px;
 
@@ -20,4 +21,9 @@ figure.foto-legenda {
 figure.foto-legenda img {
     width: 100%;
     height: 100%;
+}
+
+figure.foto-legenda figcaption {
+    position: absolut;
+    top: 0px;
 }
